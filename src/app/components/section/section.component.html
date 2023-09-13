@@ -1,0 +1,10 @@
+<section #scrollable class="section">
+  <section
+    #background
+    class="background"
+    [style.backgroundImage]="'url(' + backgroundImage + ')'"
+  ></section>
+  <ng-container>
+    <ng-content> </ng-content>
+  </ng-container>
+</section>

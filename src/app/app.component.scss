@@ -1,0 +1,22 @@
+.item {
+    width: 40%;
+    padding: 2rem 5rem;
+    background: #0e0e11e3;
+    border-radius: 2px;
+    color: #ccc;
+    font-family: 'Amatic SC', cursive;
+    font-size: 22px;
+    margin: 600px 3rem;
+}
+
+.left {
+    align-self: flex-start;
+}
+
+.center {
+    align-self: center;
+}
+
+.right {
+    align-self: flex-end;
+}

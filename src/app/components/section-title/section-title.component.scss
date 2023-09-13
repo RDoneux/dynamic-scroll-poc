@@ -1,0 +1,43 @@
+.primary {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url('/assets/coffee-2-large.jpg');
+    background-size: cover;
+
+
+    font-family: 'Amatic SC', cursive;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-weight: 700;
+
+    .title-wrapper {
+        padding: 0rem 2rem;
+        text-align: center;
+        background-color: #d8d8d82d;
+        box-shadow: 0 0 10px 0 #d8d8d84f;
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: .5rem;
+        }
+
+        h3 {
+            font-size: 28px;
+            margin-top: 0;
+        }
+    }
+}
+.secondary {
+    padding: 4rem 2rem;
+    color: white;
+    background: #0e0e11;
+    font-family: 'Amatic SC', cursive;
+    font-size: 26px;
+    font-weight: 700;
+}
